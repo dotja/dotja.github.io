@@ -51,3 +51,9 @@ img {
   padding-left: 15px;
   padding-top: 5px;
 }
+
+.skill:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
