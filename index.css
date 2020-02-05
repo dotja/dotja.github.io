@@ -1,0 +1,53 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  color: white;
+}
+
+.dots_style {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.about_style {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  padding-top: 100px;
+  color: #292b2c;/*cinder - black*/
+  background-color: #01FF70;/*spring green*/
+  height: 300px;
+  padding-top: 100px;
+}
+
+.contact_style {
+  background-color: #01FF70;/*spring green*/
+  height: 200px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+h3 {
+  color: #292b2c;/*cinder - black*/
+}
+
+img {
+  width: 30%;
+  padding-top: 20px;
+}
+
+.my-col {
+  text-align: center;
+}
+
+.navbar-header {
+  font-family: 'Special Elite', cursive;
+  font-size: 35px;
+  color: white;
+  padding-left: 15px;
+  padding-top: 5px;
+}
