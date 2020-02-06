@@ -4,6 +4,7 @@ html {
 
 .logo {
   color: white;
+  font-size: 45px;
 }
 
 .dots_style {
@@ -17,17 +18,17 @@ html {
 .about_style {
   font-family: 'Special Elite', cursive;
   text-align: center;
-  padding-top: 100px;
   color: #292b2c;/*cinder - black*/
   background-color: #01FF70;/*spring green*/
   height: 300px;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .contact_style {
   background-color: #01FF70;/*spring green*/
   height: 200px;
   padding-top: 50px;
+  font-family: 'Special Elite', cursive;
   text-align: center;
 }
 
