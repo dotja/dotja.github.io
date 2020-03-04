@@ -40,6 +40,10 @@ html {
   background-color: #e0e0e0;
 }
 
+#article:hover {
+  cursor: pointer;
+}
+
 .blog_topics_style {
   font-family: 'Special Elite', cursive;
   color: #292b2c;/*cinder - black*/
