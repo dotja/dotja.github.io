@@ -1,0 +1,94 @@
+html {
+  scroll-behavior: smooth; }
+
+.logo {
+  color: white;
+  font-size: 30px; }
+
+.dots_style {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block; }
+
+.about_style {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  color: #292b2c;
+  /*cinder - black*/
+  background-color: #01FF70;
+  /*spring green*/
+  height: 300px;
+  padding-top: 150px; }
+
+.hi {
+  font-size: 35px; }
+
+.contact_style {
+  background-color: #01FF70;
+  /*spring green*/
+  height: 200px;
+  padding-top: 50px;
+  font-family: 'Special Elite', cursive;
+  text-align: center; }
+
+#article {
+  background-color: #e0e0e0; }
+
+#article:hover {
+  cursor: pointer; }
+
+.blog_topics_style {
+  font-family: 'Special Elite', cursive;
+  color: #292b2c;
+  /*cinder - black*/
+  margin: 30px; }
+
+.blog_title_style {
+  font-family: 'Oxanium', cursive;
+  text-align: center;
+  padding-top: 100px; }
+
+.blog_content_style {
+  font-family: 'Open Sans', cursive;
+  text-align: justify; }
+
+#blog_text {
+  padding-top: 20px;
+  padding-left: 110px;
+  padding-right: 110px; }
+
+pre {
+  background-color: #eee;
+  border: 1px solid #999;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 50px; }
+
+.list-group-item:hover {
+  cursor: pointer; }
+
+.list-group-item a:hover {
+  text-decoration: none; }
+
+h3 {
+  color: #292b2c;
+  /*cinder - black*/ }
+
+img {
+  width: 30%;
+  padding-top: 20px; }
+
+.my-col {
+  text-align: center; }
+
+.navbar-header {
+  font-family: 'Special Elite', cursive;
+  font-size: 35px;
+  color: white;
+  padding-left: 15px; }
+
+.skill:hover {
+  transform: scale(1.2);
+  cursor: pointer; }
