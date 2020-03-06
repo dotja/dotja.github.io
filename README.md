@@ -1,2 +1,3 @@
 # dotja.github.io
-web profile
+
+## A blog about programming, machine learning, data science and electronics.
