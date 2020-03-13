@@ -48,18 +48,6 @@ df = pd.read_csv('MPS Borough Level Crime (most recent 24 months).csv')
 df.shape
 #(1575, 27)
 
-df.head()
-<span class="code_comments">
-#                 crime_group  ... 201911
-#0  Arson and Criminal Damage  ...      8
-#1  Arson and Criminal Damage  ...     92
-#2                   Burglary  ...     30
-#3                   Burglary  ...    113
-#4              Drug Offences  ...     10
-#
-#[5 rows x 27 columns]
-</span>
-
 df.columns
 <span class="code_comments">
 #Index(['MajorText', 'MinorText', 'LookUp_BoroughName', '201712', '201801',
@@ -72,6 +60,18 @@ df.columns
 
 ## rename my columns
 df = df.rename(columns={'MajorText': 'crime_group', 'MinorText': 'crime', 'LookUp_BoroughName': 'boroughs'})
+
+df.head()
+<span class="code_comments">
+#                 crime_group  ... 201911
+#0  Arson and Criminal Damage  ...      8
+#1  Arson and Criminal Damage  ...     92
+#2                   Burglary  ...     30
+#3                   Burglary  ...    113
+#4              Drug Offences  ...     10
+#
+#[5 rows x 27 columns]
+</span>
 </code>
 </pre>
 
