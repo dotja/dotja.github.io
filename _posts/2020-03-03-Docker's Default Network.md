@@ -1,6 +1,7 @@
 ---
 layout: post
 summary: "A look into Docker's bridge network."
+content_description: "Docker has a default bridge network. A basic explanation about Docker's bridge network and how containers can interact if they are on the same network."
 ---
 <div media:type="text/omd" class="blog_title_style container">
     <h1><span>Docker's Default Network</span></h1>

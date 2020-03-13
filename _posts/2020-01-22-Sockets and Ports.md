@@ -1,6 +1,7 @@
 ---
 layout: post
 summary: "A look into the difference between sockets and ports as well as some python code."
+content_description: "Sockets and Ports are 2 different things. Explore basic sockets and ports for developers. Provide examples using Python"
 ---
 <div media:type="text/omd" class="blog_title_style container">
     <h1><span>Sockets and Ports</span></h1>
