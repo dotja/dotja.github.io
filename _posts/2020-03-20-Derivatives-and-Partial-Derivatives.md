@@ -36,6 +36,7 @@ from matplotlib import pyplot as plt
 
 x_vec = range(-5,6)
 
+## defining my function
 def fn(x):
 &nbsp;&nbsp;&nbsp;&nbsp;return x ** 2
 
@@ -113,14 +114,14 @@ from pylab import meshgrid
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 
-# the function that I'm going to plot
+## defining my function
 def func(x,y):
 &nbsp;&nbsp;&nbsp;&nbsp;return (y**2) + (x**2)
  
 x = arange(-5,6,0.1)
 y = arange(-5,6,0.1)
-X,Y = meshgrid(x, y) # grid of point
-Z = func(X, Y) # evaluation of the function on the grid
+X,Y = meshgrid(x, y)
+Z = func(X, Y)
 
 fig = plt.figure()
 ax = fig.gca(projection='3d')
