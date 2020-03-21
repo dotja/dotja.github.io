@@ -73,6 +73,7 @@ pre {
     margin-left: 150px;
     margin-right: 150px;
     padding: 50px;
+    white-space: pre-wrap;
 }
 
 .list-group-item:hover {
@@ -117,6 +118,14 @@ img {
   text-align: center;
 }
 
+.function_img {
+  width: 500px;
+  height: 400px;
+}
+
+.function_div {
+  text-align: center;
+}
 
 .code_comments {
   color: grey;
