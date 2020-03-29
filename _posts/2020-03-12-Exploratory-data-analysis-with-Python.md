@@ -38,7 +38,6 @@ Let's start by reading in the data.
 <code>
 ## import some Python modules for handling data and plotting
 import pandas as pd
-import seaborn as sb
 import matplotlib.pyplot as plt
 
 ## read in the data file
