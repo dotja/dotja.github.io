@@ -33,7 +33,6 @@ The Docker daemon creates docker0 which is a virtual network interface described
 </p>
 
 <pre>
-<code>
 ## on your host
 ## view the docker networks
 docker network ls
@@ -43,7 +42,6 @@ ifconfig docker0
 
 ## you can inspect the bridge network and view the connected containers
 docker network inspect bridge
-</code>
 </pre>
 
 <p id="blog_text">
@@ -51,13 +49,11 @@ If a network is not specified, containers by default join the bridge network and
 </p>
 
 <pre>
-<code>
 ## running a container
 docker run -d --name my_container my_image_id
 
 ## is equivalent to
 docker run -d --net=bridge --name my_container my_image_id
-</code>
 </pre>
 
 <p id="blog_text">
@@ -65,7 +61,6 @@ When running 2 containers, exec into 1 and ping the other container to check tha
 </p>
 
 <pre>
-<code>
 ## You can view the IP address using
 hostname -I
 
@@ -81,7 +76,6 @@ sudo apt install iputils-ping
 ## after finding the IP addresses
 ## inside container 1
 ping container2_ip
-</code>
 </pre>
 
 <p id="blog_text">

@@ -35,7 +35,6 @@ Let's start by reading in the data.
 </p>
 
 <pre>
-<code>
 ## import some Python modules for handling data and plotting
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -71,7 +70,6 @@ df.head()
 #
 #[5 rows x 27 columns]
 </span>
-</code>
 </pre>
 
 <p id="blog_text">
@@ -88,7 +86,6 @@ First we will sum up all the crime counts for every borough over the months of 2
 </p>
 
 <pre>
-<code>
 ## look at the boroughs we have:
 boroughs = df.boroughs.unique()
 boroughs
@@ -102,7 +99,6 @@ boroughs
 #       'Tower Hamlets', 'Waltham Forest', 'Wandsworth', 'Westminster'],
 #      dtype=object)
 </span>
-</code>
 </pre>
 
 <p id="blog_text">
@@ -110,7 +106,6 @@ In the code below we are going to create a subset by borough name and then use i
 </p>
 
 <pre>
-<code>
 ## look at 1 borough subset
 df[df.boroughs == 'Westminster'].iloc[:10,]
 <span class="code_comments">
@@ -126,7 +121,6 @@ df[df.boroughs == 'Westminster'].iloc[:10,]
 #1533  Miscellaneous Crimes Against Society  ...      0
 #1534  Miscellaneous Crimes Against Society  ...      0
 </span>
-</code>
 </pre>
 
 <p id="blog_text">
@@ -134,7 +128,6 @@ Now that you have a better idea of what is found in our dataset, we will write s
 </p>
 
 <pre>
-<code>
 ## create a minimised dataset with only the columns we need
 temp_df = df.drop(['crime_group', 'crime', '201712', '201801', '201802', '201803', '201804', '201805', '201806', '201807', '201808', '201809', '201810', '201812'], axis=1)
 
@@ -172,7 +165,6 @@ df_result.iloc[:10,]
 #8               Enfield        30219
 #9             Greenwich        28705
 </span>
-</code>
 </pre>
 
 <p id="blog_text">
@@ -180,7 +172,6 @@ This is the total count of crimes per borough reported between January 2019 and 
 </p>
 
 <pre>
-<code>
 ## plot a histogram
 sorted_result = df_result.sort_values(by=['crime count'])
 plt.bar(sorted_result.borough, sorted_result['crime count'])
@@ -189,10 +180,9 @@ plt.ylabel('Crime Count')
 plt.title('Crime count per borough - 2019')
 plt.xticks(rotation=90)
 plt.show()
-</code>
 </pre>
 
-<div class="eda_london_borough_div" media:type="text/omd">
+<div class="centered_div" media:type="text/omd">
 <img class="eda_london_borough_img" src="/assets/images/crime_per_borough.png">
 </div>
 
@@ -209,7 +199,6 @@ Now for our final task, we will drop some columns from our original dataset, sum
 </p>
 
 <pre>
-<code>
 df = df.drop(['crime_group', 'crime', 'boroughs'], axis=1)
 df.columns
 <span class="code_comments">
@@ -227,10 +216,9 @@ plt.ylabel('Crime Count')
 plt.title('Crime Count Rate')
 plt.xticks(rotation=90)
 plt.show()
-</code>
 </pre>
 
-<div class="eda_london_borough_div" media:type="text/omd">
+<div class="centered_div" media:type="text/omd">
 <img class="eda_london_borough_img" src="/assets/images/crime_per_month.png">
 </div>
 

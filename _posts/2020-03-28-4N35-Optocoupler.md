@@ -21,7 +21,7 @@ An optocoupler is an electronic component that converts light into an electric s
 The schematic below shows that this optocoupler has 6 pins. Inside, we can see the LED and the proximity it has to the photosensor which will be able to convert the light into the electric signal.
 </p>
 
-<div class="function_div" media:type="text/omd">
+<div class="centered_div" media:type="text/omd">
 <img src="/assets/images/opto_real.jpg">
 <img src="/assets/images/optocoupler.jpg">
 </div>
@@ -35,7 +35,7 @@ To see how an optocoupler works, we use it to connect 2 separated circuits. The 
 To build a simple circuit that shows how the optocoupler works we need a breadboard, an LED, 2 resistors (one for the optocoupler and another for the LED), some jumpwires, a switch and the optocoupler itself.
 </p>
 
-<div class="function_div" media:type="text/omd">
+<div class="centered_div" media:type="text/omd">
 <img src="/assets/images/opto_circuit.jpg">
 </div>
 

@@ -40,7 +40,6 @@ For a server/client scenario, let's see what the code looks like in Python.
 </p>
 
 <pre>
-<code>
 ## server code
 import socket as s
 def server():
@@ -65,11 +64,9 @@ def server():
 
 if __name__ == '__main__':
     server()
-</code>
 </pre>
 
 <pre>
-<code>
 ## client code
 import socket as s
 class client:
@@ -95,11 +92,9 @@ class client:
 if __name__ == '__main__':
     cl = client()
     cl.start_chat()
-</code>
 </pre>
 
 <pre>
-<code>
 ## run the server code
 $ python server.py 
 Accepted connection from: ('127.0.0.1', 61811)
@@ -113,6 +108,5 @@ $ python client.py
 ->hi
 ->how are you
 ->ok bye
-</code>
 </pre>
 </div>

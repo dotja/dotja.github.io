@@ -31,7 +31,6 @@ To see what this function looks like, we can simply pick a bunch of x values and
 </p>
 
 <pre>
-<code>
 from matplotlib import pyplot as plt
 
 x_vec = range(-5,6)
@@ -48,10 +47,9 @@ plt.ylabel("y")
 plt.grid(True)
 plt.plot(x_vec, y_vec)
 plt.show()
-</code>
 </pre>
 
-<div class="function_div" media:type="text/omd">
+<div class="centered_div" media:type="text/omd">
 <img class="function_img" src="/assets/images/y_equal_x_square.png">
 </div>
 
@@ -108,7 +106,6 @@ I will first plot the function in Python:
 </p>
 
 <pre>
-<code>
 from numpy import arange
 from pylab import meshgrid
 from mpl_toolkits.mplot3d import Axes3D
@@ -128,10 +125,9 @@ ax = fig.gca(projection='3d')
 surf = ax.plot_surface(X, Y, Z)
 
 plt.show()
-</code>
 </pre>
 
-<div class="function_div" media:type="text/omd">
+<div class="centered_div" media:type="text/omd">
 <img class="function_img" src="/assets/images/x_square_plus_y_square.png">
 </div>
 

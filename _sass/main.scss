@@ -1,13 +1,17 @@
 html {
+  /* used when focus moves to contacts */
   scroll-behavior: smooth;
 }
 
 .logo {
+  /* used for the JA logo in the navbar */
   color: white;
-  font-size: 30px;
+  font-size: 35px;
+  font-family: 'Special Elite', cursive;
 }
 
 .dots_style {
+  /* used to create the 4 dots divider */
   height: 10px;
   width: 10px;
   background-color: #bbb;
@@ -16,66 +20,39 @@ html {
 }
 
 .about_style {
+  /* the message found at the top */
   font-family: 'Special Elite', cursive;
   text-align: center;
   color: #292b2c;/*cinder - black*/
   background-color: #01FF70;/*spring green*/
-  height: 300px;
-  padding-top: 10%;
+  height: 250px;
+  padding-top: 8%;
 }
 
 .hi {
+  /* adjust the size in the message at the top */
   font-size: 35px;
 }
 
 .contact_style {
+  /* style for contact at the bottom of the page */
   background-color: #01FF70;/*spring green*/
   height: 200px;
-  padding-top: 50px;
+  padding-top: 5%;
   font-family: 'Special Elite', cursive;
   text-align: center;
 }
 
-#article {
+#article_item {
+  /* the list of article items displayed in the home page */
   background-color: #e0e0e0;
 }
 
-#article:hover {
+#article_item:hover {
   cursor: pointer;
 }
 
-.blog_topics_style {
-  font-family: 'Special Elite', cursive;
-  color: #292b2c;/*cinder - black*/
-  margin: 30px;
-}
-
-.blog_title_style {
-  font-family: 'Oxanium', cursive;
-  text-align: center;
-  padding-top: 100px;
-}
-
-.blog_content_style {
-  font-family: 'Open Sans', cursive;
-  text-align: justify;
-}
-
-#blog_text {
-  padding-top: 20px;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-pre {
-    background-color: #eee;
-    border: 1px solid #999;
-    margin-left: 150px;
-    margin-right: 150px;
-    padding: 50px;
-    white-space: pre-wrap;
-}
-
+/* style for the article items list in home page */
 .list-group-item:hover {
   cursor: pointer;
 }
@@ -84,50 +61,94 @@ pre {
     text-decoration: none;
 }
 
+.blog_topics_style {
+  /* style for the article items displayed in the home page */
+  font-family: 'Special Elite', cursive;
+  color: #292b2c;/*cinder - black*/
+  margin: 5%;
+}
+
+.blog_title_style {
+  /* style for the title in every article */
+  font-family: 'Oxanium', cursive;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.blog_content_style {
+  /* style for the content in every article */
+  font-family: 'Open Sans', cursive;
+  text-align: justify;
+}
+
+#blog_text {
+  /* style for every p-tag in the article content */
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+pre {
+  /* style for the pre-tag */
+  background-color: #eee;
+  border: 1px solid #999;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5%;
+  white-space: pre-wrap;
+}
+
 h3 {
+  /* style for every h3-tag in the article content */
   color: #292b2c;/*cinder - black*/
 }
 
 img {
+  /* general style for img-tag */
   width: 30%;
   padding-top: 20px;
 }
 
 .my-col {
+  /* style for every col in a table */
   text-align: center;
 }
 
-.navbar-header {
-  font-family: 'Special Elite', cursive;
-  font-size: 35px;
-  color: white;
-  padding-left: 15px;
-}
-
-.skill:hover {
-  transform: scale(1.2);
-  cursor: pointer;
-}
-
 .eda_london_borough_img {
+  /* style for specific image */
   width: 600px;
   height: 500px;
 }
 
-.eda_london_borough_div {
-  text-align: center;
-}
-
 .function_img {
+  /* style for specific image */
   width: 500px;
   height: 400px;
 }
 
-.function_div {
+.centered_div {
+  /* a centered div */
   text-align: center;
 }
 
 .code_comments {
+  /* to mark content displayed upon running code */
   color: grey;
+}
+
+/* adjust according to screen width */
+/* this goes with meta tag with the viewport set */
+@media only screen and (max-width: 500px) {
+  .about_style {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    color: #292b2c;/*cinder - black*/
+    background-color: #01FF70;/*spring green*/
+    height: 300px;
+    padding-top: 30%;
+  }
+  .navbar_div {
+    padding-bottom: 5%;
+  }
 }
 
