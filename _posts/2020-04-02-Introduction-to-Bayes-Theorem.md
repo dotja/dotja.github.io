@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2020-04-02
-summary: "A simple introduction to Bayes' theorem with using examples."
-content_description: ""
+summary: "A simple introduction to Bayes' theorem with examples."
+content_description: "A simple step-by-step introduction to bayes theory."
 ---
 <div media:type="text/omd" class="blog_title_style container">
     <h1><span>Introduction to Bayes' Theorem</span></h1>

@@ -2,7 +2,7 @@
 layout: post
 date: 2020-03-28
 summary: "A look at the optocoupler 4N35 and how to use it in a circuit."
-content_description: "Basic electronics components. Breadboard circuits. Optocoupler 4N35. Schematics for optocoupler 4N35. Without microcontroller."
+content_description: "Building an optocoupler breadboard circuit."
 ---
 <div media:type="text/omd" class="blog_title_style container">
     <h1><span>4N35 Optocoupler</span></h1>
