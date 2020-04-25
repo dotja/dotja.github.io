@@ -21,9 +21,10 @@ conent_description: "A blog about programming, machine learning, data science an
 	<a href="{{ post.url }}">
 	<div class="d-flex w-100 justify-content-between">
 		<h5 class="mb-1">{{ post.title }}</h5>
-		<small>{{ post.date | date_to_string }}</small>
+		<button type="button" class="btn btn-outline-dark" disabled>{{ post.category }}</button>
 	</div>
 	<p class="mb-1">{{ post.summary }}</p>
+	<small>{{ post.date | date_to_string }}</small>
 </a>
 </div>
 <br />

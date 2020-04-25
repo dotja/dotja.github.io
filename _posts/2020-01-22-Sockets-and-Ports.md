@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2020-01-22
+category: devops
 summary: "A look into the difference between sockets and ports as well as some python code."
 content_description: "Sockets and Ports are 2 different things. Explore basic sockets and ports for developers. Provide examples using Python"
 ---

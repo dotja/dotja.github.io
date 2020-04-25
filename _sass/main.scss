@@ -141,6 +141,10 @@ img {
   color: grey;
 }
 
+.btn-outline-dark:hover {
+  cursor: default;
+}
+
 /* adjust according to screen width */
 /* this goes with meta tag with the viewport set */
 @media only screen and (max-width: 500px) {
@@ -149,11 +153,17 @@ img {
     text-align: center;
     color: #292b2c;/*cinder - black*/
     background-color: #01FF70;/*spring green*/
-    height: 300px;
+    height: 350px;
     padding-top: 30%;
   }
   .navbar_div {
     padding-bottom: 5%;
+  }
+  .blog_title_style {
+    /* style for the title in every article */
+    font-family: 'Oxanium', cursive;
+    text-align: center;
+    padding-top: 15%;
   }
 }
 

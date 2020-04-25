@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2020-04-12
+category: programming
 summary: "C++ code to create a binary search tree."
 content_description: "C++ code fot binary search tree explained."
 ---

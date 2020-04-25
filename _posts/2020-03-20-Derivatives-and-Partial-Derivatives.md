@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2020-03-20
+category: ml
 summary: "An example of how to differnetiate a univariate and a multivariate function."
 content_description: "Derivatives for univariate and multivariate functions. Relevant in gradient descent the optimisation algorithm in machine learning."
 ---

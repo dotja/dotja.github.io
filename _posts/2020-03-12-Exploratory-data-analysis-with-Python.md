@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2020-03-12
+category: data analysis
 summary: "Explotratory data analysis on London boroughs crime data using Python."
 content_description: "Exploratory data analysis EDA in Python using London boroughs crime dataset."
 ---

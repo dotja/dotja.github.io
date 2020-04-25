@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2020-04-02
+category: ml
 summary: "A simple introduction to Bayes' theorem with examples."
 content_description: "A simple step-by-step introduction to bayes theory."
 ---

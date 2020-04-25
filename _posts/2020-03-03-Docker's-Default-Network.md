@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2020-03-03
+category: devops
 summary: "A look into Docker's bridge network."
 content_description: "Docker has a default bridge network. A basic explanation about Docker's bridge network and how containers can interact if they are on the same network."
 ---

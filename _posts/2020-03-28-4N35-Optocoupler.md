@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2020-03-28
+category: electronics
 summary: "A look at the optocoupler 4N35 and how to use it in a circuit."
 content_description: "Building an optocoupler breadboard circuit."
 ---
