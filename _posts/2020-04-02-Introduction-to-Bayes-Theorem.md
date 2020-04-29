@@ -21,6 +21,7 @@ Bayes' rule can be used for both continuous and discrete values. In this article
 
 
 <h3 id="blog_text">A Simple Example</h3>
+
 <p id="blog_text">
 Let's imagine a person suddenly develops spots on their face and they suspect they have either smallpox or chickenpox. We want to compute the probability that this person has smallpox given the spots on the face i.e.
 
@@ -33,6 +34,7 @@ $$P(spots|chickenpox)\ =\ 0.8$$
 With the information above, you might rush to the conclusion that this patient has smallpox, but this is not accurate.
 <br />
 </p>
+
 <p id="blog_text">
 In a case like this, Bayes' rule helps us make an educated guess based on previous information we have.
 We know that chickenpox is more prevalent in the population than smallpox:
@@ -40,40 +42,56 @@ $$P(chickenpox)\ =\ 0.1$$
 $$P(smallpox)\ =\ 0.001$$
 With this knowledge, we can tweak our conclusion and make it more accurate based on prior data. The probability of having smallpox (given the spots) becomes also dependent on how much smallpox is prevalent in the community.
 </p>
-<p id="blog_text">
+
+<p id="blog_text" class="maths_symbol">
 $$P(smallpox|spots)\ =\ P(spots|smallpox). P(smallpox)$$
-<br />
+</p>
+<p id="blog_text">
 When we do the calculation we find out that:
+</p>
+<p id="blog_text" class="maths_symbol">
 $$P(smallpox|spots)\ =\ (0.9)\ .\ (0.001)\ =\ 0.0009$$
 $$P(chickenpox|spots)\ =\ (0.8)\ .\ (0.1)\ =\ 0.08$$
-<br />
+</p>
+<p id="blog_text">
 This probability is a weighted one that takes into account prior information. And we can see that it is more probable that the patient suffers from chickenpox.
 </p>
 
 <h3 id="blog_text">Derriving Bayes' Rule</h3>
+
 <p id="blog_text">
 Let's consider a number of coins of which some have 20% bias and the rest have 80% bias. We randomly choose a coin and flip it, we get heads. We want to find the probability that given heads is the outcome, the coin has 80% bias i.e. \(P(\theta_{0.8}|x_h)\)
-<br />
-<br />
+</p>
+
+<p id="blog_text" class="maths_symbol">
 \(\theta\) is a parameter representing bias
 <br />
 \(x_h\) is the event that we get heads
 </p>
+
 <p id="blog_text">
-We intuitively know that the probability of getting heads is the sum of getting it from both \(\theta_{0.8}\) and \(\theta_{0.2}\) coins.
+We intuitively know that the probability of getting heads is the sum of getting it from both
+</p>
+
+<p id="blog_text" class="maths_symbol">
+\(\theta_{0.8}\) and \(\theta_{0.2}\) coins.
 $$P(x_h)\ =\ P(x_h, \theta_{0.8})\ +\ P(x_h, \theta_{0.2})$$
 $$So:\ \ \ P(\theta_{0.8}|x_h)\ =\ \frac{P(x_h, \theta_{0.8})}{P(x_h)}\ \ \ \ \ (Eq.1)$$
 </p>
+
 <p id="blog_text">
 After establishing the equation above, let's look at a Venn diagram:
 </p>
 
-<div class="centered_div" media:type="text/omd">
+<div class="centered_div">
 <img class="bayes_imgs" src="/assets/images/venn.png">
 </div>
 
 <p id="blog_text">
 We can see that (b) is the intersection of (a) and (c). By looking at the Venn diagram above and by using (Eq.1) we can compute the following:
+</p>
+
+<p id="blog_text" class="maths_symbol">
 $$P(\theta_{0.8}|x_h)\ =\ \frac{b}{a}\ \ \ \rightarrow\ \ b\ =\ a.P(\theta_{0.8}|x_h)$$
 $$P(x_h|\theta_{0.8})\ =\ \frac{b}{c}\ \ \ \rightarrow\ \ b\ =\ c.P(x_h|\theta_{0.8})$$
 <br />
@@ -85,7 +103,7 @@ $$where\ \ \ a\ =\ p(x_h)\ \ \ and\ \ \ c\ =\ p(\theta_{0.8})$$
 </p>
 
 <p id="blog_text">we get Bayes' equation:</p>
-<div class="centered_div" media:type="text/omd">
+<div class="centered_div">
 <img class="bayes_imgs" src="/assets/images/bayes.png">
 </div>
 

@@ -43,6 +43,11 @@ html {
   text-align: center;
 }
 
+#sticky_footer {
+  font-family: 'Special Elite', cursive;
+  background-color: #01FF70;/*spring green*/
+}
+
 #article_item {
   /* the list of article items displayed in the home page */
   background-color: #e0e0e0;
@@ -114,6 +119,7 @@ img {
   text-align: center;
 }
 
+/* images in the EDA in python article, are adjusted in mobile view */
 .eda_london_borough_img {
   /* style for specific image */
   width: 600px;
@@ -121,14 +127,14 @@ img {
 }
 
 .function_img {
-  /* style for specific image */
+  /* images for derivatives and partial derivarives article, adjusted in mobile view */
   width: 500px;
   height: 400px;
 }
 
 .bayes_imgs {
-  /* style for specific image */
-  width: 600px;
+  /* images in the bayes theorem article, adjusted in mobile view */
+  width: 500px;
 }
 
 .centered_div {
@@ -143,6 +149,16 @@ img {
 
 .btn-outline-dark:hover {
   cursor: default;
+}
+
+.transistor_img_small {
+  /* small images for transistor inverter article */
+  width: 200px;
+}
+
+.transistor_img_big {
+  /* big images for transistor inverter article, adjusted in mobile view */
+  width: 500px;
 }
 
 /* adjust according to screen width */
@@ -164,6 +180,32 @@ img {
     font-family: 'Oxanium', cursive;
     text-align: center;
     padding-top: 15%;
+  }
+  .eda_london_borough_img {
+    /* adjusting images for EDA in python article */
+    width: 300px;
+    height: 200px;
+  }
+  .maths_symbol {
+    /* adjusting the size of the maths symbols in articles */
+    font-size: 11px;
+  }
+  .function_img {
+    /* adjusting images of derivatives and partial derivatives article */
+    width: 300px;
+    height: 200px;
+  }
+  .bayes_imgs {
+    /* adjusting images for bayes theorem article */
+    width: 300px;
+  }
+  .transistor_img {
+    /* adjusting transistor inverter image */
+    width: 200px;
+  }
+  .transistor_img_big {
+  /* adjusting transistor inverter big image */
+  width: 250px;
   }
 }
 

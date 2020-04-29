@@ -22,7 +22,7 @@ An optocoupler is an electronic component that converts light into an electric s
 The schematic below shows that this optocoupler has 6 pins. Inside, we can see the LED and the proximity it has to the photosensor which will be able to convert the light into the electric signal.
 </p>
 
-<div class="centered_div" media:type="text/omd">
+<div class="centered_div">
 <img src="/assets/images/opto_real.jpg">
 <img src="/assets/images/optocoupler.jpg">
 </div>
@@ -36,7 +36,7 @@ To see how an optocoupler works, we use it to connect 2 separated circuits. The 
 To build a simple circuit that shows how the optocoupler works we need a breadboard, an LED, 2 resistors (one for the optocoupler and another for the LED), some jumpwires, a switch and the optocoupler itself.
 </p>
 
-<div class="centered_div" media:type="text/omd">
+<div class="centered_div">
 <img src="/assets/images/opto_circuit.jpg">
 </div>
 
@@ -47,22 +47,19 @@ The rough sketch above shows how the components mentioned above are connected to
 <br />
 <h3 id="blog_text">4N35 in a Breadboard Circuit</h3>
 
-<div class="row">
-<div class="col">
-<img class="function_img" src="/assets/images/off.jpg">
+<div class="centered_div">
+<img src="/assets/images/off.jpg">
+<img src="/assets/images/on.jpg">
 </div>
 
-<div class="col">
-<img class="function_img" src="/assets/images/on.jpg">
-</div>
-
+<br />
 <p id="blog_text">
 We can now build the schematic onto a real breadboard. In the figures above, the voltage is supplied by the black object on the right of the breadboard which provides DC of 12v.
-<br />
+</p>
+<p id="blog_text">
 The figure on the left shows the circuit before pressing the switch. You can see that the voltage is on but the LED is not lit because the switch has not been pressed yet. The figure to the right shows how electricity flows between the 2 isolated circuits after pressing the switch.
 </p>
 
-</div>
 
 <br />
 

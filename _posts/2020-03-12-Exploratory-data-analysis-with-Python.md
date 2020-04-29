@@ -183,7 +183,7 @@ plt.xticks(rotation=90)
 plt.show()
 </pre>
 
-<div class="centered_div" media:type="text/omd">
+<div class="centered_div">
 <img class="eda_london_borough_img" src="/assets/images/crime_per_borough.png">
 </div>
 
@@ -219,7 +219,7 @@ plt.xticks(rotation=90)
 plt.show()
 </pre>
 
-<div class="centered_div" media:type="text/omd">
+<div class="centered_div">
 <img class="eda_london_borough_img" src="/assets/images/crime_per_month.png">
 </div>
 

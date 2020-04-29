@@ -50,7 +50,7 @@ plt.plot(x_vec, y_vec)
 plt.show()
 </pre>
 
-<div class="centered_div" media:type="text/omd">
+<div class="centered_div">
 <img class="function_img" src="/assets/images/y_equal_x_square.png">
 </div>
 
@@ -67,15 +67,23 @@ Let's define the 2 points P and Q on the curve. If we move P and Q closer to eac
 
 <p id="blog_text">
 If the distance between P and Q is h:
+</p>
+<p id="blog_text" class="maths_symbol">
 $$P(x,\ y)$$
 $$Q(x + h,\ y)$$
+</p>
+<p id="blog_text">
 where h is a very small value. Then:
+</p>
+<p id="blog_text" class="maths_symbol">
 $$P(x,\ f(x))$$
 $$Q(x + h,\ f(x + h))$$
 </p>
 
 <p id="blog_text">
 If we try to calculate the slope from the points above:
+</p>
+<p id="blog_text" class="maths_symbol">
 $$slope = \frac{\delta y}{\delta x}$$
 $$= \frac{f(x+h) - f(x)}{x+h-x}$$
 $$\ $$
@@ -86,6 +94,8 @@ $$= \frac{x^2 + h^2 + 2xh - x^2}{h}= 2x+h$$
 
 <p id="blog_text">
 Now as h approaches zero i.e. the distance between P and Q becomes very very very small,
+</p>
+<p id="blog_text" class="maths_symbol">
 $$ slope\ of\ PQ\ ==\ slope\ of\ tangent\ to\ curve$$
 
 $$slope_{h\to 0} = 2x + (0) = 2x$$
@@ -128,13 +138,14 @@ surf = ax.plot_surface(X, Y, Z)
 plt.show()
 </pre>
 
-<div class="centered_div" media:type="text/omd">
+<div class="centered_div">
 <img class="function_img" src="/assets/images/x_square_plus_y_square.png">
 </div>
 
 
 <h5 id="blog_text">1) Differentiate by the first variable:</h5>
-<p id="blog_text">
+
+<p id="blog_text" class="maths_symbol">
 $$f(x, y) = x^2 + y^2$$
 $$let:\ \ \ \ b = y^2$$
 $$then:\ \ \ \ f(x, y) = x^2 + b$$
@@ -151,11 +162,18 @@ $$\therefore\ \frac{\partial f(x, z)}{\partial x} = \lim_{h\to 0} 2x + h = 2x$$
 </p>
 
 <h5 id="blog_text">2) Differentiate by the second variable:</h5>
+
 <p id="blog_text">
 We follow the same steps as above but for the y variable:
+</p>
+<p id="blog_text" class="maths_symbol">
 $$\frac{\partial f(x, y)}{\partial y} = 2y$$
 <br />
+</p>
+<p id="blog_text">
 Therefore the partial derivative vector of f(x, y) is:
+</p>
+<p id="blog_text" class="maths_symbol">
 $$\nabla f(x, y) = 
 \begin{bmatrix}
 \frac{\partial f(x, y)}{\partial x} \\
