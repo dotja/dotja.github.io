@@ -161,6 +161,13 @@ img {
   width: 500px;
 }
 
+/* image in the elegoo power module article, are adjusted in mobile view */
+.power_module_image {
+  /* style for specific image */
+  width: 1200px;
+  height: 600px;
+}
+
 /* adjust according to screen width */
 /* this goes with meta tag with the viewport set */
 @media only screen and (max-width: 500px) {
@@ -206,6 +213,11 @@ img {
   .transistor_img_big {
   /* adjusting transistor inverter big image */
   width: 250px;
+  }
+  .power_module_image {
+    /* adjusting the elegoo power module image */
+    width: 300px;
+    height: 200px;
   }
 }
 
