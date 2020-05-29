@@ -8,6 +8,7 @@ html {
   color: white;
   font-size: 35px;
   font-family: 'Special Elite', cursive;
+  padding-left: 20px;
 }
 
 .dots_style {
@@ -24,9 +25,9 @@ html {
   font-family: 'Special Elite', cursive;
   text-align: center;
   color: #292b2c;/*cinder - black*/
-  background-color: #01FF70;/*spring green*/
+  background-color: #8BC34A;/*#01FF70 spring green*/
   height: 250px;
-  padding-top: 8%;
+  padding-top: 7rem;
 }
 
 .hi {
@@ -36,7 +37,7 @@ html {
 
 .contact_style {
   /* style for contact at the bottom of the page */
-  background-color: #01FF70;/*spring green*/
+  background-color: #8BC34A;/*#01FF70 spring green*/
   height: 200px;
   padding-top: 5%;
   font-family: 'Special Elite', cursive;
@@ -45,12 +46,13 @@ html {
 
 #sticky_footer {
   font-family: 'Special Elite', cursive;
-  background-color: #01FF70;/*spring green*/
+  background-color: #8BC34A;/*#01FF70 spring green*/
 }
 
 #article_item {
   /* the list of article items displayed in the home page */
   background-color: #e0e0e0;
+  margin-bottom: 20px;
 }
 
 #article_item:hover {
@@ -168,6 +170,25 @@ img {
   height: 450px;
 }
 
+/* pagination icon in the home page */
+#pagination_target {
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+/* the contact icons in the footer */
+#contact_icon {
+  padding-left: 20px;
+
+}
+
+/* the h3 tags in the footer */
+#contact_icon_h3 {
+  font-size: 40px;
+}
+
 /* adjust according to screen width */
 /* this goes with meta tag with the viewport set */
 @media only screen and (max-width: 500px) {
@@ -175,7 +196,7 @@ img {
     font-family: 'Special Elite', cursive;
     text-align: center;
     color: #292b2c;/*cinder - black*/
-    background-color: #01FF70;/*spring green*/
+    background-color: #8BC34A;/*#01FF70 spring green*/
     height: 350px;
     padding-top: 30%;
   }

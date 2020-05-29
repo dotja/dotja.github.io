@@ -3,8 +3,9 @@ layout: base
 title: Home
 conent_description: "A blog about programming, machine learning, data science and electronics."
 ---
+
 <div class="about_style">
-	<h4 class="animated fadeInUp"><span class="hi">Hi, welcome to my blog!</span><br /><br />I write about programming, machine learning and electronics.</h4>
+	<h4 class="animated fadeInUp"><span class="hi">Hi, welcome to my blog!</span><p>I write about programming, machine learning and electronics.</p></h4>
 	<a name="skills"></a>
 </div>
 <div style="text-align:center">
@@ -14,9 +15,38 @@ conent_description: "A blog about programming, machine learning, data science an
 	<span class="dots_style"></span>
 </div>
 
-<div id="mycontent"class="blog_topics_style">
+
+
+
+
+<!-- Pagination links -->
+<div id="pagination_target" class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+	<i class="fa fa-arrow-left"></i>
+    </a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">
+			<i class="fa fa-arrow-right"></i>
+    </a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
+
+
+
+
+<div id="mycontent" class="blog_topics_style">
 <div class="list-group">
-{% for post in site.posts %}
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
 <div id="article_item" class="list-group-item list-group-item-action flex-column align-items-start">
 	<a href="{{ post.url }}">
 	<div class="d-flex w-100 justify-content-between">
@@ -27,7 +57,28 @@ conent_description: "A blog about programming, machine learning, data science an
 	<small>{{ post.date | date_to_string }}</small>
 </a>
 </div>
-<br />
 {% endfor %}
 </div>
 </div>
+
+
+<div id="pagination_target" class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+	<i class="fa fa-arrow-left"></i>
+    </a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">
+			<i class="fa fa-arrow-right"></i>
+    </a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
+
