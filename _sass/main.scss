@@ -44,10 +44,19 @@ html {
   text-align: center;
 }
 
+#footer_area {
+  padding-top: 10%;
+}
+
 #sticky_footer {
   font-family: 'Special Elite', cursive;
   background-color: #8BC34A;/*#01FF70 spring green*/
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
 }
+
 
 #article_item {
   /* the list of article items displayed in the home page */
