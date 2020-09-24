@@ -2,6 +2,7 @@
 layout: post
 date: 2020-08-11
 category: programming
+title: Draw a Fractal with HTML5 Canvas and Javascript
 summary: "Use code to draw a circle fractal with HTML5 canvas and Javascript."
 content_description: "Javascript code to draw a circle fractal. Digital art."
 ---

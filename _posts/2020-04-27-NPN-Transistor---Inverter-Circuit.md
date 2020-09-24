@@ -2,11 +2,12 @@
 layout: post
 date: 2020-04-27
 category: electronics
+title: NPN Transistor - Inverter Circuit
 summary: "How to build an inverter using an NPN transistor."
 content_description: "Build an inverter circuit with an npn transistor."
 ---
 <div media:type="text/omd" class="blog_title_style container">
-    <h1><span>NPN Transistor: Inverter Circuit</span></h1>
+    <h1><span>NPN Transistor - Inverter Circuit</span></h1>
     <small>27 Apr 2020</small>
 </div>
 
