@@ -1,3 +1,3 @@
 # dotja.github.io
 
-## A blog about programming, machine learning, data science and electronics.
+### A tech blog hosted on GitHub Pages using Jekyll.
